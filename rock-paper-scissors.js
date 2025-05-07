@@ -61,13 +61,6 @@ choices.forEach((choice) => {
     });
 });
 
-
-// Reset game logic here
-/*let button = document.getElementById("reset-button");
-button.addEventListener("click", ()=>{
-  document.querySelector(".score");
- })
-*/   
 let button = document.createElement("button"); // Create a new button element
 button.id = "reset-button"; // Set the button's ID
 button.innerText = "Reset Game"; // Set the button's text
