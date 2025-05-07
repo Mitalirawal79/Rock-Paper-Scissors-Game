@@ -1,4 +1,4 @@
-let userScore = 0;
+elet userScore = 0;
 let compScore = 0;
 
 const choices = document.querySelectorAll(".choice");
@@ -14,7 +14,7 @@ const genCompChoice = () => {
 };
 
 const drawGame = () => {
-    msg.innerText = "Game was draw.Play again";
+    msg.innerText = "Game was draw 🤝.Play again";
     msg.style.backgroundColor = "gray";
 };
 
@@ -22,7 +22,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     if (userWin) {
         userScore++;
         userScorePara.innerText = userScore;
-        msg.innerText = `you win! Your ${userChoice} beats ${compChoice}`;
+        msg.innerText = `you win! Your ${userChoice} beats ${compChoice}🏆🎉🎊`;
         msg.style.backgroundColor = "green";
     } else {
         compScore++;
